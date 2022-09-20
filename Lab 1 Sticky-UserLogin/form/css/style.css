@@ -1,0 +1,58 @@
+
+body{
+    border: 1px solid white;
+    background-color:  #1f1f1f;
+    height: 10000px;
+
+}
+
+.loginBox{
+
+    background: lightgray;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+
+
+.loginBox h1{
+    padding-top: 0.5rem;
+    text-align: center;
+    z-index: 2;
+}
+
+/*centera*/
+.box{
+    margin: 0 auto;
+}
+
+.container{
+    position: sticky;
+    left: 0;
+    top: 30%;
+    margin-bottom: 150px;
+    width: 100%;
+    z-index: 2;
+}
+
+.login-form{
+    font-weight: bolder;
+    padding-left: 1em;
+
+}
+
+.btn-container{
+
+}
+
+.box button{
+    position: relative;
+    margin-top: 3em;
+    width: 30%;
+    background-color: lightgray;
+
+}
+
+
+
