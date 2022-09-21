@@ -47,6 +47,7 @@ let person = {
 
 let x = 10;
 let y = 20;
+
 console.log("Del 1:\nDeklarerade variabler: x="+ x + " och y="+ y + "\n");
 
 console.log("Addition ger:  "+ addition.calculate(x,y));
