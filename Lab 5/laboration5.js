@@ -41,17 +41,19 @@ console.log("\n\nThe position of "+ newName +" is "+ position);
 //  Delar på listan i två delar och delning sker så att sökt namn hamnar sist i sin del.
 let chop = nameArray.splice(position +1 );
 
-console.log("Det sökta namnet hamnar sist i den delen den till och kan poppas: " + nameArray.pop());
+console.log("Det sökta namnet hamnar sist den dellistan och kan poppas ut genom; namesArray.pop() =: " + nameArray.pop());
 
+//destructing
 nameArray= [...nameArray, ...chop]
-console.log("new array: "+ nameArray);
-let concatArray = nameArray.concat(chop);
-console.log("CNCAT: "+concatArray)
+console.log("resulting array: "+ nameArray);
+
 console.log("\n"+nameArray);
-console.log(nameArray.length);
+
 //- Loopa igenom din array och logga varje namn i consolen
 for(n in nameArray){
     console.log("array["+ n + "] = "+nameArray[n]);
 }
 
-
+for(n in concatArray){
+    console.log("array["+ n + "] = "+concatArray[n]);
+}
