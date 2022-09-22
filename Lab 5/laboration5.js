@@ -37,7 +37,6 @@ let position = nameArray.indexOf(newName);
 console.log("\n\nThe position of "+ newName +" is "+ position);
 
 
-
 //- Ta bort ‘Joakim’ igen
 //  Delar på listan i två delar och delning sker så att sökt namn hamnar sist i sin del.
 let chop = nameArray.splice(position +1 );
