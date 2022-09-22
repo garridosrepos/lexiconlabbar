@@ -53,7 +53,3 @@ console.log("\n"+nameArray);
 for(n in nameArray){
     console.log("array["+ n + "] = "+nameArray[n]);
 }
-
-for(n in concatArray){
-    console.log("array["+ n + "] = "+concatArray[n]);
-}
