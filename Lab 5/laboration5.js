@@ -1,21 +1,23 @@
 
 
 
-// Du ska i denna laborationsuppgift göra följande:
-
-// - Skapa en Array med 5 olika namn i.
-
+/** Du ska i denna laborationsuppgift göra följande:
+ - Skapa en Array med 5 olika namn i.
+ **/
 let nameArray = ["Georgetta", "Lovelyn", "Gaetano", "Margot", "Teron"];
+
+//Output
 console.log("Initial array:\n\t "+nameArray);
 
 
-// - Ta bort den sista posten i din array.
+/** - Ta bort den sista posten i din array.**/
 let poppedName = nameArray.pop();
 //Show results
 console.log("\n\nAfter the last item been removed:\n\t " + nameArray ) ;
 
 
-// - Ändra namnet på plats 2 (tank på att arrayer är 0 baserade)
+/**- Ändra namnet på plats 2 (tank på att arrayer är 0 baserade)
+ * */
 let index = 1;
 let replacer = "Erickson";
 
@@ -23,12 +25,15 @@ nameArray.fill(replacer, index, index+1);
 console.log("\n\nThe array after the second item been changed :\n\t " + nameArray ) ;
 
 
-// - Lägg till ‘Joakim’ som ett namn i din array.
+/**Lägg till ‘Joakim’ som ett namn i din array.**/
 let newName = "Joakim";
 nameArray.push(newName);
 console.log("\n\nThe array after inserting " + newName+ ":\n\t " + nameArray );
 
-// - Sortera array:en i bokstavsordning
+/** # Sortera array:en i bokstavsordning
+ *
+ *
+ **/
 nameArray.sort();
 console.log("\n\nThe array after sorting in alphabetical order:\n\t " + nameArray ) ;
 
