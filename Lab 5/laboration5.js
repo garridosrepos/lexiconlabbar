@@ -30,10 +30,7 @@ let newName = "Joakim";
 nameArray.push(newName);
 console.log("\n\nThe array after inserting " + newName+ ":\n\t " + nameArray );
 
-/** # Sortera array:en i bokstavsordning
- *
- *
- **/
+/** # Sortera array:en i bokstavsordning**/
 nameArray.sort();
 console.log("\n\nThe array after sorting in alphabetical order:\n\t " + nameArray ) ;
 
