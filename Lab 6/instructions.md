@@ -31,5 +31,6 @@ Funktion 3:
 Funktion 4:
 
     const tip = function(sum, percent) {
-        let total = sum + sum * percent;return total;
+        let total = sum + sum * percent;
+        return total;
     }
