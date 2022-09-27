@@ -1,0 +1,17 @@
+
+.row {
+    /*border: 1px solid lightgray;*/
+}
+
+.output-group{
+    border: 1px solid lightgray;
+}
+
+#result{
+    width: fit-content;
+}
+
+.invalid-value {
+    color: darkred;
+    font-size: small;
+}
