@@ -15,26 +15,12 @@ let volume = function () {
     let d = parseFloat(depth.value);
 
     var value = h * d * w;
-    var volumeValue = Math.fround(value);
-
-    console.log("Calculated volume-value: "+ volumeValue);
-
-    if(parseFloat(width.value) < 0 || parseFloat(height.value) < 0 ||parseFloat(depth.value)< 0){
-        volumeValue = volumeValue * -1;
-    }
-    return volumeValue;
-
+    console.log("Calculated volume-value: "+ value);
+    return value;
 }
 
-
-
 let updateVolume = function () {
-    console.log(this.id + ": " + this.value);
-    let vol = volume();
-    result.innerHTML = vol;
-    volResult.innerHTML = vol;
-    /*console.log(this);*/
-
+    result.innerHTML = volume();
 }
 
 updateVolume();
