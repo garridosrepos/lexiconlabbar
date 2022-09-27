@@ -9,15 +9,26 @@ let result = document.querySelector("#result")
 let volResult = document.querySelector("#volResult")
 
 let volume = function () {
-    var value = parseFloat(width.value) * parseFloat(height.value) * parseFloat(depth.value);
-    value = Math.fround(value);
 
-    console.log("Calculated volume-value");
+    let w = parseFloat(width.value);
+    let h = parseFloat(height.value);
+    let d = parseFloat(depth.value);
+
+    var value = h * d * w;
+
+
+
+    var volumeValue = Math.fround(value);
+
+
+    console.log("Calculated volume-value: "+ volumeValue);
+
     if(parseFloat(width.value) < 0 || parseFloat(height.value) < 0 ||parseFloat(depth.value)< 0){
-        value = value * -1;
+        volumeValue = volumeValue * -1;
     }
-    return value;
+    return volumeValue;
 }
+
 
 
 let updateVolume = function () {
@@ -30,11 +41,6 @@ let updateVolume = function () {
 }
 
 updateVolume();
-/*
-width.addEventListener('valueChange', updateVolume);
-height.addEventListener('click', updateVolume);
-depth.addEventListener('click', updateVolume);
-*/
 
 
 

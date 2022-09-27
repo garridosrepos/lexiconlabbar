@@ -8,41 +8,37 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           rel="stylesheet">
 </head>
-<style>
-
-
-</style>
 <body>
 
 <h1>3</h1>
 <div class="container">
-    <form class="cv-form row">
+    <form class="cv-form">
             <div class="input-group row">
                 
-                <label class="input-label col-sm-3 col-md-2 col-lg-2" for="cube-width">Width (m):</label>
+                <label class="input-label col-sm-2 col-md-2 col-lg-2" for="cube-width">Width (m):</label>
     
-                <div class="col-md-2 col-sm-4">
+                <div class="col-sm-2 col-md-2">
                     <input onchange="updateVolume()" class="form-control" id="cube-width" step="0.1" type="number">
                 </div>
             </div>
             
             <div class="input-group row">
-                <label class="input-label col-sm-3 col-md-2 col-lg-2" for="cube-depth">Depth (m):</label>
-                <div class="col-md-2 col-sm-4">
+                <label class="input-label col-sm-2 col-md-2 col-lg-2" for="cube-depth">Depth (m):</label>
+                <div class="col-md-2 col-sm-2">
                     <input onchange="updateVolume()" class="form-control" id="cube-depth" step="0.1" type="number" >
                 </div>
             </div>
             
             <div class="input-group row ">
-                <label class="input-label col-sm-3" for="cube-height">Height (m): </label>
-                <div class="col-md-2 col-sm-4">
-                    <input onchange="updateVolume()" class="form-control col-sm-1 col-md-1 col-lg-2" id="cube-height" step="0.1" type="number" maxlength="3">
+                <label class="input-label col-sm-2 col-md-2 col-lg-2" for="cube-depth">Height (m):</label>
+                <div class="col-sm-1 col-md-2">
+                    <input onchange="updateVolume()" class="form-control col-sm-1 col-md-1 col-lg-1" id="cube-height" step="0.1" type="number">
                 </div>
             </div>
         <div class="row">
-            <p class="result-vol row">Volume:</p>
-            <div class="offset-4 col-sm-2" id="result"></div>
-            <div class="col-sm-3">Cubic Meters</div>
+            <p class="result-vol">Volume:</p>
+            <div class="col-sm-2 col-md-1 col-lg-1" id="result"></div>
+            <div class="col-sm-2"><small>Cubic Meters</small></div>
         </div>
         
         
