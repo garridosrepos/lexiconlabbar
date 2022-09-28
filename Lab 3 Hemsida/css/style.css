@@ -1,0 +1,26 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    /*background-image: url('../images/pattern.png');*/
+    /*background-repeat: repeat;*/
+}
+
+.row>[ class^=col ] {
+    padding-top:        1em;
+    padding-bottom:     1em;
+    background-color:   rgba(182, 89, 27, 0.25);
+    border: 1px solid   rgba(228, 75, 15, 0.4);
+    z-index: 1;
+}
+
+
+
+
+.row {
+    margin-top: 10px;
+    background-color:   rgba(32, 178, 70, 0.25);
+    border: 1px solid   rgba(32, 178, 50, 0.25);
+
+}
+
