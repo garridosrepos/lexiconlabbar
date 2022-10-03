@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 8: Form Validation</title>
+	<link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+</head>
+<body>
+	<main role="main">
+		<div class="container">
+
+			<div class="col-md-6">
+				<div class="p-2 text-center">
+					<h4 class="display-6">Lab 8</h4>
+				</div>
+
+				<form  class="needs-validation bg-light rounded" action="#" method="get"  novalidate>
+					<div class="row mb-4" >
+						<div class="col-md-8">
+							<label class="form-label" for="textInput">Text input</label>
+							<input class="form-control" id="textInput" placeholder="" required type="text" value="">
+							<!-- Attribute: required -->
+							<div class="invalid-feedback">
+								Text input is required
+							</div>
+						</div>
+					</div>
+					<div class="row g-3 mb-4">
+						<div class="col-md-8">
+							<label class="form-label" for="emailInput">Email</label>
+							<input class="form-control" id="emailInput" placeholder="name@example.com" required type="email"
+							       value="">
+							<div class="row mb-4">
+								<div class="invalid-feedback">
+									Invalid!!
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-4">
+							<label class="form-label" for="select-opts">Form-Select</label>
+							<select class="form-select" id="select-opts" required>
+								<option value="">Choose...</option>
+								<option>A</option>
+								<option>B</option>
+								<option>C</option>
+							</select>
+							<div class="invalid-feedback">
+								Select a valid option
+							</div>
+						</div>
+					</div>
+
+					<div class="row my-5 ">
+						<div class="col-sm-6">
+							<h6 class="form-label">Checkbox</h6>
+							<div class="form-check">
+								<input class="form-check-input" id="confirmed-box" type="checkbox" required>
+								<label class="form-check-label" for="confirmed-box">Click on the box to select some
+									option</label>
+							</div>
+							<div class="invalid-feedback">
+								you must click on the box
+							</div>
+						</div>
+					</div>
+
+					<div class="row g-3 mb-4">
+						<div class="col-5">
+							<label for="username" class="form-label"><h4>Username</h4></label>
+							<div class="input-group">
+								<input type="text" class="form-control" id="username"  placeholder="Your username" aria-posinset="@gmail.com" required>
+								<span class="input-group-text">@gmail.com</span>
+								<div class="invalid-feedback">
+									Enter a valid username
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row g-3 pb-4">
+						<button class="w-auto btn btn-primary offset-10" type="submit">Validate</button>
+					</div>
+				</form>
+
+
+			</div>
+		</div>
+	</main>
+
+
+	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="js/form-validation.js"></script>
+</body>
+</html>
