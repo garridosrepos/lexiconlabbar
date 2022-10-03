@@ -1,7 +1,7 @@
 
 
-/** Funktion 1:*/
-console.log("Function 1:")
+/** Funktion mediaq:*/
+console.log("Function mediaq:")
 let hello= () => console.log("Hello world");
 hello();
 console.log("")
