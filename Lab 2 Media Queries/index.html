@@ -2,24 +2,52 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
-    
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link href="css/small-default.css" rel="stylesheet">
-    <link href="css/medium.css" rel="stylesheet">
-    <link href="css/large.css" rel="stylesheet">
+    <!-- <link href="css/reset.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/small-default.css" rel="stylesheet" type="text/css">
+    <link href="css/medium.css" rel="stylesheet" type="text/css">
+    <link href="css/large.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
-	<form action="#">
-		<label for="firstName">First Name</label>
-		<input type="text" class="form-control" id="firstName">
-	</form>
+
+	<div class="main">
+		<div class="page-title">
+			<h1>Title</h1>
+		</div>
+		<form action="">
+
+			<div class="form-title"><h3>Form Title</h3></div>
+			<div class="separator"><hr class="separation-line"></div>
+
+			<div class="form-content">
+				<div class="">
+					<div class="input-group">
+						<label for="firstName" class="inputLabel" >First Name:</label>
+						<input type="text" id="firstName">
+					</div>
+
+					<div class="input-group">
+						<label for="lastName" class="inputLabel">Last Name: </label>
+						<input type="text" id=lastName placeholder="">
+					</div>
+				</div>
+
+				<div class="input-group">
+					<label for="email" class="inputLabel">Email:</label>
+					<input type="email" id="email">
+				</div>
+				<div class="input-group">
+					<label for="password" class="inputLabel">Password:</label>
+					<input type="password" id="password">
+				</div>
+			</div>
+		</form>
+	</div>
+
+
 
 </body>
 </html>

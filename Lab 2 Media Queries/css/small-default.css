@@ -18,12 +18,57 @@ Means that margin is added outside of the box and padding to the inside of the b
     box-sizing: border-box;
 }
 
-/* Elements properties in the small-default.css file
+/*Elements properties in the small-default.css file
     that are not being overwritten in the other css-files
-    will remain unchanged in the web browser.
- */
+    will remain unchanged in the web browser.*/
 
 h1 {
     color: red;
-
 }
+
+form{
+    border: 1px solid linen;
+    background-color: lightgray;
+}
+
+.page-title{
+    text-align: center;
+}
+
+.form-content{
+
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.separator{
+    width: 100%;
+    height: 20px;
+    /*background-color: lightslategray;*/
+}
+.separator>hr{
+    width: 50%;
+}
+
+.form-title{
+    text-align: center;
+}
+
+.input-group{
+    width: 40%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border:1px solid black;
+}
+
+
+label{
+    /*border:     1px solid black;
+    background-color: #fff;*/
+
+    display: block;
+    margin-bottom: 0.5vw;
+}
+
+
