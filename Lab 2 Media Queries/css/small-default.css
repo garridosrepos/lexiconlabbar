@@ -1,0 +1,29 @@
+/*These to code-snippets are needed to responsive design*/
+
+/*  Prevent adjustments of font size after orientation changes in IE on Windows Phone
+and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/* Apply a natural box layout model to all elements.
+Means that margin is added outside of the box and padding to the inside of the box.
+*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Elements properties in the small-default.css file
+    that are not being overwritten in the other css-files
+    will remain unchanged in the web browser.
+ */
+
+h1 {
+    color: red;
+
+}
