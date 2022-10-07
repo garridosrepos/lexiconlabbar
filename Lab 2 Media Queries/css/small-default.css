@@ -13,9 +13,9 @@ Means that margin is added outside of the box and padding to the inside of the b
 */
 
 * {
-    -moz-box-sizing: border-box;
+    box-sizing:         border-box;
+    -moz-box-sizing:    border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 /*Elements properties in the small-default.css file
@@ -47,7 +47,7 @@ form{
     /*background-color: lightslategray;*/
 }
 .separator>hr{
-    width: 50%;
+    width: 75%;
 }
 
 .form-title{
@@ -55,7 +55,7 @@ form{
 }
 
 .input-group{
-    width: 40%;
+    width: 80%;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -66,9 +66,11 @@ form{
 label{
     /*border:     1px solid black;
     background-color: #fff;*/
-
     display: block;
     margin-bottom: 0.5vw;
 }
 
+input {
+
+}
 
