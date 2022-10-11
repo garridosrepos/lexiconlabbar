@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px){
+    body{
+        background-color: lightslategrey;
+    }
+
+    .form-content{
+        padding: 20%;
+        border: 1px solid red;
+    }
+}

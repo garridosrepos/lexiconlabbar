@@ -1,5 +1,12 @@
 @media only screen and (min-width: 560px) {
 
-    h1{color: green; }
+    body{
+        background-color: yellow;
+    }
+
+    .form-content{
+        padding: 20%;
+        border: 1px solid yellow;
+    }
 
 } /*End media query*/

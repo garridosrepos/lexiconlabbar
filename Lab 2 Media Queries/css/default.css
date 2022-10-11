@@ -1,0 +1,152 @@
+/*These to code-snippets are needed to responsive design*/
+
+/*  Prevent adjustments of font size after orientation changes in IE on Windows Phone
+and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: "SauceCodePro Nerd Font Mono", SansSerif, sans-serif;
+}
+
+
+/* Apply a natural box layout model to all elements.
+Means that margin is added outside of the box and padding to the inside of the box.
+*/
+
+* {
+    box-sizing:         border-box;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background-color: lightsteelblue;
+}
+/*************************************/
+form{
+    background-color: lightgray;
+
+}
+.page-title{
+    text-align: center;
+}
+
+.form-content{
+    margin:1%;
+    padding: 1vh;
+    border: 1px solid lightsteelblue;
+}
+
+.form-title{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.separator{
+    width: 100%;
+}
+
+.separator>hr{
+    width: 90%;
+}
+
+.form-content{
+    border: 1px solid lightslategrey;
+}
+
+.input-box {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    max-width: 100%;
+    min-width: fit-content;
+    border: 1px solid lightsteelblue;
+    margin-bottom: 1rem;
+
+}
+
+.input-label{
+
+}
+
+.input{
+    background-color:   lightsteelblue;
+    width:              90%;
+}
+
+input{
+    max-width: 80%;
+}
+
+@media screen and (min-width: 320px) {
+    body{
+        background-color: lightslategrey;
+    }
+    .form-content{
+        border: 1px solid lightslategrey;
+    }
+    .input-box {
+        border: 1px solid lightslategrey;
+    }
+    .input{
+        background-color:lightslategrey;
+    }
+}
+
+@media screen and (min-width: 400px){
+    body{
+        background-color: lime;
+    }
+    .form-content{
+        border: 1px solid lime;
+    }
+    .input-box {
+        border: 1px solid lime;
+    }
+    .input{
+        background-color:lime;
+    }
+}
+@media screen and (min-width: 560px) {
+    body{
+        background-color: yellow;
+    }
+    .form-content{
+        border: 1px solid yellow;
+    }
+    .input-box {
+        border: 1px solid yellow;
+    }
+    .input{
+        background-color: yellow;
+    }
+} /*End media query*/
+
+@media screen and (min-width: 1140px) {
+    body{
+        background-color: orange;
+    }
+    .form-content{
+        border: 1px solid orange;
+    }
+    .input-box {
+        border: 1px solid orange;
+    }
+    .input{
+        background-color: orange;
+    }
+}
+@media screen and (min-width: 1500px) {
+    body{
+        background-color: red;
+    }
+    .form-content{
+        border: 1px solid red;
+    }
+    .input-box {
+        border: 1px solid red;
+    }
+    .input{
+        background-color: red;
+    }
+}

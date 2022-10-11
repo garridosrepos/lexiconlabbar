@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <!-- <link href="css/reset.css" rel="stylesheet" type="text/css"> -->
-    <link href="css/small-default.css" rel="stylesheet" type="text/css">
-    <link href="css/medium.css" rel="stylesheet" type="text/css">
-    <link href="css/large.css" rel="stylesheet" type="text/css">
+    <link href="css/default.css" rel="stylesheet">
 
 </head>
 <body>
@@ -21,32 +19,43 @@
 			<div class="separator"><hr class="separation-line"></div>
 
 			<div class="form-content">
+
 				<div class="">
-					<div class="input-group">
+					<div class="input-box">
+
 						<label for="firstName" class="inputLabel" >First Name:</label>
-							<h1></h1>
-						<input type="text" id="firstName">
+						<div class="input">
+							<input type="text" id="firstName">
+						</div>
+
 					</div>
 
-					<div class="input-group">
+					<div class="input-box">
 						<label for="lastName" class="inputLabel">Last Name: </label>
-						<input type="text" id=lastName placeholder="">
+						<div class="input">
+							<input type="text" id=lastName placeholder="">
+						</div>
 					</div>
 				</div>
 
-				<div class="input-group">
+				<div class="input-box">
 					<label for="email" class="inputLabel">Email:</label>
-					<input type="email" id="email">
+					<div class="input">
+						<input type="email" id="email">
+					</div>
 				</div>
-				<div class="input-group">
+				<div class="input-box">
 					<label for="password" class="inputLabel">Password:</label>
-					<input type="password" id="password">
+					<div class="input">
+						<input type="password" id="password">
+					</div>
 				</div>
-			</div>
-		</form>
+
+			</div><!-- form-content -->
+		</form><!-- Form ends -->
 	</div>
 
 
-
+	<script src="script.js"></script>
 </body>
 </html>
