@@ -1,4 +1,5 @@
-Array
+## Laboration 9
+### Array
 1. Skapa en array med åtta personer (objekt), varje person ska ha:
    - namn
    - ålder
